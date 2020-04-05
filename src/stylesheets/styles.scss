@@ -1,6 +1,15 @@
-// Add your styles here
 @tailwind base;
-
 @tailwind components;
 
+
 @tailwind utilities;
+
+
+.about-container {
+    
+    background-image: url('../images/AboutHeaderAchtergrond.jpg')
+}
+
+.about-text {
+    top: -50px;
+}
