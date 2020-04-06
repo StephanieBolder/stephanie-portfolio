@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         rood: '#FB6453' ,
         beige: '#FFF9F6' ,
+        donkerbeige: '#FFD7C7' ,
       }
     },
   },
