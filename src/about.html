@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Stephanie Bolder Portfolio </title>
-    <meta name="description" content="" />
+    <meta name="description" content="Stephanie Bolder's Graphic- and Web Design portfolio!" />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="/build/tailwind.css">
@@ -15,6 +15,10 @@
 
         #menu-toggle:checked + #menu {
         display: block;
+      }
+
+      .-mt-28 {
+        margin-top: -7rem;
       }
       </style>
   </head>
@@ -34,27 +38,28 @@
       <nav>
           <div class="py-1 px-2  flex justify-between">
         <ul class="md:flex items-center justify-between md:pt-2">
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="#">Home</a></li>
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="#">About</a></li>
-          <li><a href="index.html" class='hidden md:block'><img class="w-18 h-16" src="images/Logo.png" /></a></li>
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="#">Work</a></li>
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="#">Contact</a></li>
+          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="index.html">Home</a></li>
+          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="about.html">About</a></li>
+          <li><a href="index.html" class='hidden md:block'><img class="w-18 h-16" src="images/Logo.png" alt="Logo" /></a></li>
+          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="projects.html">Work</a></li>
+          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="contact.html">Contact</a></li>
         </ul>
        </div>
       </nav>
     </div>
     </header>
 
-    <div class='flex bg-fixed z-10 pt-40 pb-40 justify-center' style="background-image: url(images/2.jpg);">
-      <h1 class='font-display font-thin text-4xl text-white'>About Stephanie Bolder</h1>
+    <div class='flex bg-fixed z-10 pt-40 pb-40 justify-center bg-cover' style="background-image: url(images/22.jpg);">
+      <h1 class='font-display font-thin text-3xl sm:text-4xl text-black'>About Stephanie Bolder</h1>
   </div>
     </div>
+
    
     <div class='flex justify-center h-full -mt-12 pb-12 z-30'>
-        <div class='bg-donkerbeige w-10/12 md:w-6/12 lg:w-6/12 py-10 sm:p-20 px-2 md:px-2 flex flex-col'>
-          <img class=" hidden md:block w-24 -mt-24 ml-64 " src="images/test4.png" alt="SunDrawing" />
+        <div class='bg-donkerbeige w-10/12 lg:w-6/12 -10 sm:p-20 px-2 lg:px-2 flex flex-col items-end'>
+          <img class="hidden sm:block -mt-28 w-24 " src="images/test.png" alt="SunDrawing" />
            <div class=" items-center flex flex-col lg:flex-row leading-7 font-display font-thin"> 
-            <img src='images/AboutFoto.jpg' class='lg:w-1/2 lg:px-12 my-6 '/>
+            <img src='images/AboutFoto.jpg' alt="PictureOfStephanieBolder" class='px-4 md:px-6 lg:w-1/2 lg:px-6 mt-24 sm:mt-6'/>
             <div class='lg:w-1/2 px-2 my-6 text-sm'> 
             <h1>
               Hi, my name is Stephanie Bolder, and I am an enthusiastic graphic- and web designer!
@@ -80,7 +85,7 @@
     </div>
 
       <div class='bg-donkerbeige p-8 px-8 z-40 pb-20'>
-        <img class="hidden md:block h-40 -mt-32 ml-64 " src="images/test2.png" />
+        <img class="h-32 sm:h-40 -mt-24 sm:-mt-32 ml-0 sm:ml-12 lg:ml-64 " src="images/test2.png" alt="DrawingOfPalmTrees"/>
         <h1 class='font-display text-center text-2xl font-thin text-black'>More information?</h1>
          <div class="leading-7 font-display font-thin text-sm "> 
            <p class="px-8 lg:px-12 lg:mx-64">
@@ -96,9 +101,9 @@
       <div class='justify-between flex flex-row-reverse bg-white py-2 pr-8'>
         <div class="hidden md:block">
             <div class="justify-between flex flex-row pr-8 m-2 ">
-              <a target="_blank" href="https://www.facebook.com/stephanie.boldr" class="mr-4"><img class="w-4 h-4" src='images/facebook.png'/></a>
-              <a target="_blank" href="https://www.instagram.com/bolderstephanie/" class="mr-4"><img class="w-4 h-4" src='images/instagram.png'/></a>
-              <a target="_blank" href="https://www.linkedin.com/in/stephanie-bolder-4231741a5/" class=""><img class="w-4 h-4" src='images/linkedin.png'/></a>
+              <a target="_blank" href="https://www.facebook.com/stephanie.boldr" class="mr-4"><img class="w-4 h-4" alt="FacebookIcon"src='images/facebook.png'/></a>
+              <a target="_blank" href="https://www.instagram.com/bolderstephanie/" class="mr-4"><img class="w-4 h-4" alt="InstagramIcon" src='images/instagram.png'/></a>
+              <a target="_blank" href="https://www.linkedin.com/in/stephanie-bolder-4231741a5/" class=""><img class="w-4 h-4" alt="LinkedInDrawing" src='images/linkedin.png'/></a>
               </div>
             </div>
         <p class="m-2 font-display text-xs font-thin">Privacy Policy</p>
