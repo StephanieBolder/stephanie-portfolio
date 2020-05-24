@@ -12,5 +12,4 @@ Clone je eigen repository, gebruik vervolgens NPM INSTALL en daarna NPM START vo
 -	Tailwind CSS
 
 ## Opzet gedaan met:
--	Static Site Boilerplate
-
+* [Static Site Boilerplate](https://github.com/aadvdh/static-site-boilerplate-tailwindcss)
