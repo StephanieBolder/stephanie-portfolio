@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <title>Stephanie Bolder Portfolio | Home</title>
-    <meta name="description" content="Stephanie Bolder's Graphic- and Web Design portfolio!" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="/build/tailwind.css">
+    <meta
+      name="description"
+      content="Stephanie Bolder's Graphic- and Web Design portfolio!"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="/build/tailwind.css" />
     <style>
-        h1::first-letter {
-          font-family: "Dancing Script";
-          font-size: 3rem;
-        }
+      h1::first-letter {
+        font-family: "Dancing Script";
+        font-size: 3rem;
+      }
 
-        #menu-toggle:checked + #menu {
+      #menu-toggle:checked + #menu {
         display: block;
       }
 
@@ -27,100 +33,190 @@
       .pt-72 {
         padding-top: 19.5rem;
       }
-      </style>
+    </style>
   </head>
-  <body class=''>
+  <body class="">
+    <!-- Navbar -->
+    <header
+      class="px-6 bg-transparent flex-wrap lg:py-0 py-2 flex justify-start md:justify-center items-center"
+    >
+      <div class="flex justify-between items-center"></div>
 
-    <header class="px-6 bg-transparent flex-wrap lg:py-0 py-2  flex justify-start md:justify-center items-center">
-      <div class=" flex justify-between items-center">
-  
-    </div>
-  
-     <label for="menu-toggle" class="pointer-cursor md:hidden block"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
-    <input class="hidden" type="checkbox" id="menu-toggle" />
-    
-    
-  
-    <div class="hidden md:flex items-center md:w-auto w-full" id="menu">
-      <nav>
-          <div class="py-1 px-2  flex justify-between">
-        <ul class="md:flex items-center justify-between md:pt-2">
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="index.html">Home</a></li>
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="about.html">About</a></li>
-          <li><a href="index.html" class='hidden md:block'><img class="w-18 h-16" src="images/Logo.png" alt="Logo" /></a></li>
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="projects.html">Work</a></li>
-          <li><a class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin " href="contact.html">Contact</a></li>
-        </ul>
-       </div>
-      </nav>
-    </div>
+      <label for="menu-toggle" class="pointer-cursor md:hidden block"
+        ><svg
+          class="fill-current text-gray-900"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+        >
+          <title>menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg
+      ></label>
+      <input class="hidden" type="checkbox" id="menu-toggle" />
+
+      <div class="hidden md:flex items-center md:w-auto w-full" id="menu">
+        <nav>
+          <div class="py-1 px-2 flex justify-between">
+            <ul class="md:flex items-center justify-between md:pt-2">
+              <li>
+                <a
+                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  href="about.html"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="index.html" class="hidden md:block"
+                  ><img class="w-18 h-16" src="images/Logo.png" alt="Logo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  href="projects.html"
+                  >Work</a
+                >
+              </li>
+              <li>
+                <a
+                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <div class='flex bg-fixed z-10 pt-72 pb-72 justify-center bg-cover' style="background-image: url(images/22.jpg);">
-      <h1 class='font-display font-thin text-3xl sm:text-4xl text-black'>Stephanie Bolder Design</h1>
-  </div>
+    <!-- Header Design -->
+    <div
+      class="flex bg-fixed z-10 pt-72 pb-72 justify-center bg-cover"
+      style="background-image: url(images/22.jpg);"
+    >
+      <h1 class="font-display font-thin text-3xl sm:text-4xl text-black">
+        Stephanie Bolder Design
+      </h1>
     </div>
 
-   
-    <div class='flex justify-center h-full -mt-12 pb-12 z-30'>
-        <div class='bg-donkerbeige w-10/12 lg:w-6/12 -10 sm:p-20 px-2 lg:px-2 flex flex-col items-end'>
-          <img class="hidden sm:block -mt-28 w-24 " src="images/test.png" alt="SunDrawing" />
-           <div class=" items-center flex flex-col lg:flex-row leading-7 font-display font-thin"> 
-            <img src='images/AboutFoto.jpg' alt="PictureOfStephanieBolder" class='px-4 md:px-6 lg:w-1/2 lg:px-6 mt-24 sm:mt-6'/>
-            <div class='lg:w-1/2 px-2 my-6 text-sm'> 
+    <!-- About Me Information -->
+    <div class="flex justify-center h-full -mt-12 pb-12 z-30">
+      <div
+        class="bg-donkerbeige w-10/12 lg:w-6/12 -10 sm:p-20 px-2 lg:px-2 flex flex-col items-end"
+      >
+        <img
+          class="hidden sm:block -mt-28 w-24"
+          src="images/test.png"
+          alt="SunDrawing"
+        />
+        <div
+          class="items-center flex flex-col lg:flex-row leading-7 font-display font-thin"
+        >
+          <img
+            src="images/AboutFoto.jpg"
+            alt="PictureOfStephanieBolder"
+            class="px-4 md:px-6 lg:w-1/2 lg:px-6 mt-24 sm:mt-6"
+          />
+          <div class="lg:w-1/2 px-2 my-6 text-sm">
             <h1>
-              Hi, my name is Stephanie Bolder, and I am an enthusiastic graphic- and web designer!
+              Hi, my name is Stephanie Bolder, and I am an enthusiastic graphic-
+              and web designer!
             </h1>
-              <p>
-              I'm currently still in university, studying for my Information- and Communication Technology degree. 
-              </p>
             <p>
-              I have a passion for creativity -- creativity makes me happy. I truly believe in the transformative power of illustration and design and their ability to inspire people everywhere.
-             </p>
-            <p class='font-medium'>Trial and Error</p>
+              I'm currently still in university, studying for my Information-
+              and Communication Technology degree.
+            </p>
             <p>
-              I believe that there are no mistakes, only lessons. Growth is a process of trial and error. That's why I like to experiment with various methods of design until I find the one that's most succesful!
-             </p>
-             <p class='font-medium'>Communication</p>
+              I have a passion for creativity -- creativity makes me happy. I
+              truly believe in the transformative power of illustration and
+              design and their ability to inspire people everywhere.
+            </p>
+            <p class="font-medium">Trial and Error</p>
             <p>
-              I believe that great work comes from building great relationships, which is why I love to connect with my clients and collaborate with them every step of the way.
-
-             </p>
+              I believe that there are no mistakes, only lessons. Growth is a
+              process of trial and error. That's why I like to experiment with
+              various methods of design until I find the one that's most
+              succesful!
+            </p>
+            <p class="font-medium">Communication</p>
+            <p>
+              I believe that great work comes from building great relationships,
+              which is why I love to connect with my clients and collaborate
+              with them every step of the way.
+            </p>
           </div>
-        </div>
-        </div>
-    </div>
-
-      <div class='bg-donkerbeige p-8 px-8 z-40 pb-20'>
-        <img class="h-32 sm:h-40 -mt-24 sm:-mt-32 ml-0 sm:ml-12 lg:ml-64 " src="images/test2.png" alt="DrawingOfPalmTrees"/>
-        <h1 class='font-display text-center text-2xl font-thin text-black'>More information?</h1>
-         <div class="leading-7 font-display font-thin text-sm "> 
-           <p class="px-8 lg:px-12 lg:mx-64">
-            Would you like to know more about me or a project I've worked on? 
-            Or, would you like to hire me for a graphic design project? Feel free to contact me, and we'll get acquinted!
-            <a href="contact.html">Click here to fill in the contact form.</a>  
-          </div>
-          </div>
-          
-          
-
-    <footer>
-      <div class='justify-between flex flex-row-reverse bg-white py-2 pr-8'>
-        <div class="hidden md:block">
-            <div class="justify-between flex flex-row pr-8 m-2 ">
-              <a target="_blank" href="https://www.facebook.com/stephanie.boldr" class="mr-4"><img class="w-4 h-4" alt="FacebookIcon"src='images/facebook.png'/></a>
-              <a target="_blank" href="https://www.instagram.com/bolderstephanie/" class="mr-4"><img class="w-4 h-4" alt="InstagramIcon" src='images/instagram.png'/></a>
-              <a target="_blank" href="https://www.linkedin.com/in/stephanie-bolder-4231741a5/" class=""><img class="w-4 h-4" alt="LinkedInDrawing" src='images/linkedin.png'/></a>
-              </div>
-            </div>
-        <p class="m-2 font-display text-xs font-thin">Privacy Policy</p>
-        <p class="pl-8 m-2 font-display text-xs font-thin">@ 2020 Stephanie Bolder</p>
-
         </div>
       </div>
+    </div>
+
+    <!-- More Information -->
+    <div class="bg-donkerbeige p-8 px-8 z-40 pb-20">
+      <img
+        class="h-32 sm:h-40 -mt-24 sm:-mt-32 ml-0 sm:ml-12 lg:ml-64"
+        src="images/test2.png"
+        alt="DrawingOfPalmTrees"
+      />
+      <h1 class="font-display text-center text-2xl font-thin text-black">
+        More information?
+      </h1>
+      <div class="leading-7 font-display font-thin text-sm">
+        <p class="px-8 lg:px-12 lg:mx-64">
+          Would you like to know more about me or a project I've worked on? Or,
+          would you like to hire me for a graphic design project? Feel free to
+          contact me, and we'll get acquinted!
+          <a href="contact.html">Click here to fill in the contact form.</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="justify-between flex flex-row-reverse bg-white py-2 pr-8">
+        <div class="hidden md:block">
+          <div class="justify-between flex flex-row pr-8 m-2">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/stephanie.boldr"
+              class="mr-4"
+              ><img
+                class="w-4 h-4"
+                alt="FacebookIcon"
+                src="images/facebook.png"
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/bolderstephanie/"
+              class="mr-4"
+              ><img
+                class="w-4 h-4"
+                alt="InstagramIcon"
+                src="images/instagram.png"
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/stephanie-bolder-4231741a5/"
+              class=""
+              ><img
+                class="w-4 h-4"
+                alt="LinkedInDrawing"
+                src="images/linkedin.png"
+            /></a>
+          </div>
+        </div>
+        <p class="m-2 font-display text-xs font-thin">Privacy Policy</p>
+        <p class="pl-8 m-2 font-display text-xs font-thin">
+          @ 2020 Stephanie Bolder
+        </p>
+      </div>
     </footer>
-        
   </body>
 </html>
-
-
