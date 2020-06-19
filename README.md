@@ -1,6 +1,6 @@
 # Stephanie Bolder - Portfolio
 
-Dit project bestaat uit het portfolio dat gemaakt is voor Stephanie Bolder. Dit portfolio heeft als doel om werkgevers een duidelijk beeld te geven wie Stephanie is, wat ze doet en hoe ze te contacteren is. Hier is qua design duidelijk de stijl van Stephanie terug zien.
+Dit project bestaat uit het portfolio dat gemaakt is voor Stephanie Bolder. Dit portfolio heeft als doel om werkgevers een duidelijk beeld te geven wie Stephanie is, wat ze doet en hoe ze te contacteren is. Hier is qua design duidelijk de stijl van Stephanie in terug zien.
 
 ## Installeren
 
