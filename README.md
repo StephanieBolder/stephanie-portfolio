@@ -2,6 +2,10 @@
 
 This project contains the portfolio made for Stephanie Bolder. This portfolio has the purpose to show emmployers who Stephanie Bolder is, what she does and how to contact her. In terms of design, the project shows the exact style Stephanie loves.
 
+## Status
+
+`Working on the finishing touches`
+
 ## Install
 
 Clone your own repository, then use `npm install`, and after that `npm start` for your development server.
