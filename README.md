@@ -1,6 +1,6 @@
 # Stephanie Bolder - Portfolio
 
-Dit project bestaat uit het portfolio dat gemaakt is voor Stephanie Bolder. Dit portfolio heeft als doel om werkgevers een duidelijk beeld te geven wie Stephanie is, wat ze doet en hoe ze te contacteren is. Hier is qua design duidelijk de stijl van Stephanie in terug zien.
+This project contains the portfolio made for Stephanie Bolder. This portfolio has the purpose to show emmployers who Stephanie Bolder is, what she does and how to contact her. In terms of design, the project shows the exact style Stephanie loves.
 
 ## Install
 
@@ -23,3 +23,14 @@ Fontys FHICT student
 ## Template used:
 
 - [Static Site Boilerplate](https://github.com/aadvdh/static-site-boilerplate-tailwindcss)
+
+## Clone this repo to your local machine by using:
+
+https://github.com/StephanieBolder/stephaniebolder-portfolio
+
+## Used programs
+
+- Visual Studio Code
+- Git CMD
+- Github
+- Google Chrome
