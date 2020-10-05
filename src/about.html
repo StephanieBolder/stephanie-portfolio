@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stephanie Bolder | About</title>
+    <title>Stephanie Bolder | Contact</title>
     <meta
       name="description"
       content="Stephanie Bolder's Graphic- and Web Design portfolio!"
@@ -11,27 +11,25 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/tds4tgw.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="/build/tailwind.css" />
     <style>
-      h1::first-letter {
-        font-family: "Dancing Script";
-        font-size: 3rem;
-      }
-
-      #menu-toggle:checked + #menu {
-        display: block;
-      }
-
-      .-mt-28 {
-        margin-top: -7rem;
+      .font-test {
+        font-family: learning-curve, sans-serif;
+        font-weight: 400;
+        font-style: normal;
       }
     </style>
   </head>
   <body class="bg-white">
     <!-- Navbar -->
     <header
-      class="px-6 bg-white flex-wrap lg:py-0 py-2 flex justify-start md:justify-center items-center"
+      class="px-6 bg-achtergrondbruin flex-wrap lg:py-0 py-2 flex justify-start md:justify-center items-center"
     >
       <div class="flex justify-between items-center"></div>
 
@@ -50,39 +48,41 @@
 
       <div class="hidden md:flex items-center md:w-auto w-full" id="menu">
         <nav>
-          <div class="py-1 px-2 flex justify-between">
-            <ul class="md:flex items-center justify-between md:pt-2">
+          <div class="py-10 pb-64 px-2 flex justify-between">
+            <ul
+              class="md:flex items-center justify-between text-xs font-josefin text-textgrijs tracking-widest font-semibold md:pt-2"
+            >
               <li>
                 <a
-                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  class="md:p-4 py-3 px-0 mx-4 block border-b-2 border-transparent hover:border-black"
                   href="index.html"
-                  >Home</a
+                  >HOME</a
                 >
               </li>
               <li>
                 <a
-                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  class="md:p-4 py-3 px-0 mx-4 block border-b-2 border-transparent hover:border-black"
                   href="about.html"
-                  >About</a
+                  >ABOUT</a
                 >
               </li>
               <li>
-                <a href="index.html" class="hidden md:block"
-                  ><img class="w-18 h-16" src="images/Logo.png" alt="Logo"
+                <a href="index.html" class="mx-8 hidden md:block"
+                  ><img class="w-12" src="images/LogoWit.png" alt="Logo"
                 /></a>
               </li>
               <li>
                 <a
-                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  class="md:p-4 py-3 px-0 mx-4 block border-b-2 border-transparent hover:border-black"
                   href="projects.html"
-                  >Work</a
+                  >WORK</a
                 >
               </li>
               <li>
                 <a
-                  class="md:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black font-display font-thin"
+                  class="md:p-4 py-3 px-0 mx-4 block border-b-2 border-transparent hover:border-black"
                   href="contact.html"
-                  >Contact</a
+                  >CONTACT</a
                 >
               </li>
             </ul>
@@ -91,81 +91,26 @@
       </div>
     </header>
 
-    <!-- Header design -->
-    <div
-      class="flex bg-fixed z-10 pt-40 pb-40 justify-center bg-cover"
-      style="background-image: url('images/22.jpg');"
-    >
-      <h1 class="font-display font-thin text-3xl sm:text-4xl text-black">
-        Over Stephanie Bolder
-      </h1>
-    </div>
-
-    <!-- About Me Information -->
-    <div class="flex justify-center h-full -mt-12 pb-12 z-30">
+    <div class="flex justify-center items-center">
       <div
-        class="bg-donkerbeige w-10/12 lg:w-6/12 -10 sm:p-20 px-2 lg:px-2 flex flex-col items-end"
+        class="flex justify-center w-4/12 -mt-48 bg-transparent border-t-8 border-r-8 border-l-8 p-4 border border-white"
       >
-        <img
-          class="hidden sm:block -mt-28 w-24"
-          src="images/test.png"
-          alt="SunDrawing"
-        />
-        <div
-          class="items-center flex flex-col lg:flex-row leading-7 font-display font-thin"
-        >
-          <img
-            src="images/AboutFoto.jpg"
-            alt="PictureOfStephanieBolder"
-            class="px-4 md:px-6 lg:w-1/2 lg:px-6 mt-24 sm:mt-6"
-          />
-          <div class="lg:w-1/2 px-2 my-6 text-sm">
-            <h1>
-              Hi, mijn naam is Stephanie Bolder, en ik ben een enthousiaste Web Designer en Front End Developer!
-                          </h1>
-            <p>
-              Momenteel studeer ik in Tilburg aan de opleiding ICT & Media Design.
-            </p>
-            <p>
-              I have a passion for creativity -- creativity makes me happy. I
-              truly believe in the transformative power of illustration and
-              design and their ability to inspire people everywhere.
-            </p>
-            <p class="font-medium">Trial and Error</p>
-            <p>
-              I believe that there are no mistakes, only lessons. Growth is a
-              process of trial and error. That's why I like to experiment with
-              various methods of design until I find the one that's most
-              succesful!
-            </p>
-            <p class="font-medium">Communication</p>
-            <p>
-              I believe that great work comes from building great relationships,
-              which is why I love to connect with my clients and collaborate
-              with them every step of the way.
-            </p>
-          </div>
-        </div>
+        <img class="shadow-lg" src="images/SelfieBorderWhite.png" />
       </div>
     </div>
 
-    <!-- More Information -->
-    <div class="bg-donkerbeige p-8 px-8 z-40 pb-20">
-      <img
-        class="h-32 sm:h-40 -mt-24 sm:-mt-32 ml-0 sm:ml-12 lg:ml-64"
-        src="images/test2.png"
-        alt="DrawingOfPalmTrees"
-      />
-      <h1 class="font-display text-center text-2xl font-thin text-black">
-        More information?
-      </h1>
-      <div class="leading-7 font-display font-thin text-sm">
-        <p class="px-8 lg:px-12 lg:mx-64">
-          Would you like to know more about me or a project I've worked on? Or,
-          would you like to hire me for a graphic design project? Feel free to
-          contact me, and we'll get acquinted!
-          <a href="contact.html">Click here to fill in the contact form.</a>
-        </p>
+    <div class="flex justify-center">
+      <div class="font-josefin font-light text-lg w-5/12">
+        Hoi! Ik ben Stephanie Bolder, en ben web designer! Ik kom uit een dorpje
+        in Zeeland genaamd Wemeldinge, waar ik mijn hele leven al woon. Ik ben
+        graag creatief, maar houd wel van minimalisme in mijn designs zonder al
+        te veel poespas. Ik ben graag straight to the point! Ik vind het
+        belangrijk om een relatie op te bouwen met mijn cliënten, om erachter te
+        komen waar de interesses liggen, en waar absoluut niet. Hierdoor
+        ontstaan er geen misverstanden, en kan ik goed aan de slag. Ik werk
+        graag met een duidelijke structuur, met een strakke planning om zonder
+        problemen tot een prachtig product te komen waar alle partijen tevreden
+        mee zijn!
       </div>
     </div>
 
